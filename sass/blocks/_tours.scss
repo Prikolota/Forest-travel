@@ -1,0 +1,84 @@
+/* inner page tours */
+
+.inner-page-tours-header {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+/* cards*/
+
+.cards-first-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.cards-second-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cards-second-row-column > * + * {
+  margin-top: 30px;
+}
+
+.card-link-wrapper {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.card-link-wrapper:hover {
+  opacity: 0.8;
+}
+
+.card {
+  width: 570px;
+}
+
+.card.bigger {
+  width: 670px;
+}
+
+.card.small {
+  width: 470px;
+}
+
+.card-title-wrapper {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: #a6a6a6;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.card.sand .card-title-wrapper {
+  background-color: #c1b19b;
+}
+
+.card.azure .card-title-wrapper {
+  background-color: #66b0be;
+}
+
+.card.earth .card-title-wrapper {
+  background-color: #876f56;
+}
+
+.card.green .card-title-wrapper {
+  background-color: #27695e;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 28px;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

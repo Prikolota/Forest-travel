@@ -1,0 +1,117 @@
+.header {
+    position: relative;
+    padding-top: 50px;
+    height: 800px;
+    background-color: #265847;
+    background-image: url("./../img/header/header-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+  }
+  
+  .header-inner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: #265847;
+    background-image: url("./../img/header/header-inner.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .header-nav {
+    font-size: 22px;
+  }
+  
+  .header-nav-button {
+    outline: none;
+  }
+  
+  .header-nav-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-nav-list-item:not(:last-child) {
+    margin-right: 50px;
+  }
+  
+  .header-nav-link {
+    color: #ffffff;
+    transition: 0.5s linear;
+    text-decoration: none;
+  }
+  
+  .header-nav-link:hover {
+    color: #138ece;
+  }
+  
+  .header-nav-button {
+    display: none;
+  }
+  
+  .header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 1170px;
+  }
+  
+  .header-title {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    line-height: 1;
+  }
+  
+  .header-content p {
+    font-size: 24px;
+  }
+  
+  .header-scroll {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    display: inline-block;
+    padding-bottom: 34px;
+  
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+  
+    transition: 0.5s linear;
+    text-decoration: none;
+  }
+  
+  .header-scroll::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  
+    content: "";
+    display: block;
+    width: 18px;
+    height: 24px;
+  
+    background-image: url("./../img/header/arrow-down.svg");
+  }
+  
+  .header-scroll:hover {
+    color: #138ece;
+  }

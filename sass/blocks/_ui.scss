@@ -1,0 +1,35 @@
+.ui {
+    padding: 50px;
+  }
+  
+  .ui-header {
+    font-size: 42px;
+    font-family: "Lobster", cursive;
+    margin-bottom: 40px;
+  }
+  
+  .ui-header-2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  ul.ui-list {
+    font-size: 22px;
+    padding-left: 25px;
+  }
+  
+  ul.ui-list li {
+    margin-bottom: 15px;
+    list-style-type: disc;
+  }
+  
+  ul.ui-list a {
+    text-decoration: none;
+    color: #138ece;
+    transition: color 0.2s 0.02s ease;
+  }
+  
+  ul.ui-list a:hover {
+    color: rgba(85, 50, 150, 0.5);
+  }
+  
